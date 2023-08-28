@@ -1,0 +1,18 @@
+package main
+
+import "fmt"
+
+func main() {
+	var altura float64
+	var peso float64
+	var ideal float64
+	fmt.Println("qual sua altura")
+	fmt.Scan(&altura)
+	fmt.Println("qual seu peso")
+	fmt.Scan(&peso)
+	if ideal > 10.5 && ideal < 20.5 {
+		fmt.Println("vc está no peso ideal")
+	} else {
+		fmt.Println(" vc n está no peso ideal")
+	}
+}
