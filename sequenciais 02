@@ -1,0 +1,22 @@
+package main
+
+import "fmt"
+
+func main() {
+	var num1 int
+	var num2 int
+	var num3 int
+	fmt.Println("Digite o primeiro número")
+	fmt.Scan(&num1)
+	fmt.Println("Digite segundo número")
+	fmt.Scan(&num2)
+	fmt.Println("Digite o terceiro número")
+	fmt.Scan(&num3)
+	if num1 < num2 && num2 < num3 {
+		fmt.Println("O menor número é", num1)
+	} else {
+		fmt.Println("o menor número é", num2)
+
+		fmt.Println("o menor número é", num3)
+	}
+}
