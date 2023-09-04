@@ -1,0 +1,20 @@
+package main
+
+import (
+	"fmt"
+	_ "fmt"
+)
+
+func main() {
+	var maior, x int
+	x = -1
+	for x != 0 {
+		fmt.Println("digite um número")
+		fmt.Scan(&x)
+
+		if x > maior {
+			maior = x
+		}
+	}
+	fmt.Println("o maior é", maior)
+}
