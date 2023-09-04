@@ -1,0 +1,20 @@
+package main
+
+import (
+	"fmt"
+	_ "fmt"
+)
+
+func main() {
+	var idade int
+	fmt.Println("digite um número")
+	fmt.Scan(&idade)
+	if idade <= 9 {
+		fmt.Println("voce é mirim")
+	} else if idade <= 13 {
+		fmt.Println("voce é juvenil")
+	} else if idade <= 21 {
+		fmt.Println("voce é adulto")
+	}
+
+}
