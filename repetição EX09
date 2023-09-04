@@ -1,0 +1,22 @@
+package main
+
+import (
+	"fmt"
+	_ "fmt"
+)
+
+func main() {
+	var soma, quantidade, x int
+	x = -1
+	for x != 0 {
+
+		fmt.Println("digite um número")
+		fmt.Scan(&x)
+
+		soma += x
+		quantidade++
+	}
+	media := soma / quantidade
+	fmt.Println("A média é", media)
+
+}
